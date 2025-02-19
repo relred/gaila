@@ -6,11 +6,11 @@
             <table class="w-full text-left table-auto min-w-max">
                 <thead>
                 <tr class="border-b border-slate-300 bg-slate-50">
-                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Product</th>
-                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Name</th>
-                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Quantity</th>
-                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Price per Item</th>
-                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Total Price</th>
+                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Producto</th>
+                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Nombre</th>
+                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Descripcion</th>
+                    <th class="p-4 text-sm font-normal leading-none text-slate-500">Precio</th>
+                    <th class="p-4 text-sm font-normal leading-none text-slate-500"></th>
                 </tr>
                 </thead>
                 <tbody>

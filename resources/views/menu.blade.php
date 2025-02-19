@@ -19,15 +19,15 @@
         <h1 class="text-3xl capitalize text-center mt-12 mb-4 text-white font-bold" style="text-shadow: 0px 0px 5px black;">{{ $menu->name }}</h1>
         <div class="flex min-h-screen w-full items-center justify-center">
             <div class="w-full mx-auto font-light mb-6 pb-6">
-                <div class="max-w-3xl">
+                <div class="max-w-3xl mx-auto">
                     @foreach ($menu->categories()->get() as $category)
                         <h2 class="ml-6 text-xl font-bold" style="text-shadow: 0px 0px 5px #e9e9e9;">{{ $category->name }}</h2>
                         @foreach ($category->items()->get() as $item)
                             <div class="m-4">
                                 <x-ts-card>
                                     <div class="flex items-center">
-                                        <div class="overflow-hidden rounded-lg w-16 h-16 bg-gray-50 border ">
-                                            <img src="{{ Storage::url($item->image) }}" alt="">
+                                        <div class="overflow-hidden rounded-lg w-24 h-24 bg-gray-50 border flex-shrink-0">
+                                            <img class="object-cover h-24 w-24" src="{{ Storage::url($item->image) }}">
                                         </div>
                                         <div class="flex-grow pl-3">
                                             <h6 class="font-semibold uppercase text-zinc-700">{{ $item->name }}</h6>
